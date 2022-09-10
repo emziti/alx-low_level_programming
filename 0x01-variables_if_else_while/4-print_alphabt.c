@@ -1,29 +1,22 @@
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+ *  * main - print if the number is postive, zero, or negative
+ *   *
+ *    * Description: using the main function
+ *     * this program prints "Programming is positive, zero, or negative
+ *      * Return: 0
+ *       */
 int main(void)
-
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
-
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-	if (alphabet == 'q')
-		continue;
-
-
-	else if (alphabet == 'e')
-		continue;
-
-
-	putchar (alphabet);
-
+if (ch != 'e' && ch != 'q')
+{
+	putchar(ch);
 }
-
-putchar ('\n');
-
+}
+putchar('\n');
 return (0);
 }
 
