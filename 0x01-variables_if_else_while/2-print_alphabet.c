@@ -1,20 +1,19 @@
-
-#include <stdlib.h>
-#include <time.h>
-/* more headers goes there */
-
-/* betty style doc for function main goes there */
+#include <stdio.h>
+/**
+ * * main - print if the number is postive, zero, or negative
+ * *
+ * * Description: using the main function
+ * * this program prints "Programming is positive, zero, or negative
+ * * Return: 0
+ * */
 int main(void)
-
 {
-char alphabet;
-for (alphabet = 'a'; alphabet <= 'z'; alphabet++)
+char ch;
+for (ch = 'a' ; ch <= 'z' ; ch++)
 {
-putchar(alphabet);
-}	
-
+	putchar(ch);
+}
 putchar('\n');
-
 return (0);
 }
 
