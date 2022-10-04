@@ -1,7 +1,7 @@
-#include "main.h"
+#include "main.h"	
 #include <stdlib.h>
 /**
- * free_grid - frees a 2D grid created in alloc_grid.
+ * free_grid - free a 2D grid created in alloc_grid.
  * @grid: pointer to pointer.
  * @height: height of grid.
  *
@@ -17,5 +17,4 @@ void free_grid(int **grid, int height)
 	}
 	free(grid);
 }
-
 
